@@ -2,7 +2,7 @@ require 'sinatra'
 require 'googlebooks'
 
 get '/' do
- 'hello pudding cup'
+ 
 
  erb :index
 end
@@ -11,7 +11,7 @@ end
 post "/" do
   @input = params['query']
   @results = GoogleBooks.search(@input)
-  erb :results
+  erb :index, :layout => :results
 
 
 end
