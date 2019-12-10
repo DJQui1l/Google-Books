@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Product_Sans_Bold;
+  src: url(/Fonts/Product_Sans_Bold.ttf);
+}
+
+body {
+  font-family: Product_sans_Bold;
+}
