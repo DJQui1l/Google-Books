@@ -3,33 +3,45 @@
   src: url(/Fonts/Product_Sans_Bold.ttf);
 }
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: Product_sans_Bold;
+  background-color: #2d9696;
+  /* background-color: #00dbdb; */
 }
 
 #title-box{
+  padding: 10% 0%;
 
   text-align: center;
 }
 
 #main-title{
   font-size: 7em;
+  color: #eee;
 }
-
+form{
+  padding-right: 2%;
+}
 input {
-    width: 19%;
-    height: 3%;
-    margin: 0px -4px;
-    border-top-left-radius: 17px;
-    border-bottom-left-radius: 16px;
-    border: 1px solid lightblue;
+  width: 19%;
+height: 5.1%;
+margin: 0px -4px;
+border-top-left-radius: 17px;
+border-bottom-left-radius: 17px;
+border: 1px solid lightblue;
+padding: 0% 3%;
 }
 button{
-  width: 5%;
-height: 3%;
+  position: absolute;
+width: 5%;
+height: 5%;
 margin: 0px -2px;
-border-bottom-right-radius: 12px;
-border-top-right-radius: 12px;
+border-bottom-right-radius: 17px;
+border-top-right-radius: 17px;
 background-color: lightblue;
 border: 0;
+font-size: 0.8em;
 }
