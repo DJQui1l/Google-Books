@@ -6,3 +6,30 @@
 body {
   font-family: Product_sans_Bold;
 }
+
+#title-box{
+
+  text-align: center;
+}
+
+#main-title{
+  font-size: 7em;
+}
+
+input {
+    width: 19%;
+    height: 3%;
+    margin: 0px -4px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 16px;
+    border: 1px solid lightblue;
+}
+button{
+  width: 5%;
+height: 3%;
+margin: 0px -2px;
+border-bottom-right-radius: 12px;
+border-top-right-radius: 12px;
+background-color: lightblue;
+border: 0;
+}
